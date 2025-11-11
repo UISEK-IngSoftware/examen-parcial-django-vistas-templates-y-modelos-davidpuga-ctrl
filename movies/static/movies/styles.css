@@ -1,0 +1,27 @@
+/* Cada película como tarjeta */
+.movie-item {
+    background: #1a1a1a;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 0 0 8px rgba(255,255,255,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* efecto hover tipo bootstrap */
+.movie-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 14px rgba(88,166,255,0.4);
+}
+
+/* enlaces */
+.movie-item a {
+    color: #58a6ff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.movie-item a:hover {
+    text-decoration: underline;
+}

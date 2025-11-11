@@ -1,0 +1,15 @@
+{% extends "movies/base.html" %}
+
+{% block content %}
+<section class="detail-box">
+  <h2>{{ movie.title }}</h2>
+
+  <p><strong>Año de Publicación:</strong> {{ movie.year }}</p>
+  <p><strong>Director:</strong> {{ movie.director }}</p>
+  <p><strong>Género:</strong> {{ movie.genre }}</p>
+
+  <p><strong>Sinopsis:</strong> {{ movie.synopsis }}</p>
+
+
+</section>
+{% endblock %}
